@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B973437212B5236007548A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B973436212B5236007548A2 /* AppDelegate.swift */; };
-		1B973439212B5236007548A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B973438212B5236007548A2 /* ViewController.swift */; };
-		1B97343C212B5236007548A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B97343A212B5236007548A2 /* Main.storyboard */; };
+		1B973437212B5236007548A2 /* AFAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B973436212B5236007548A2 /* AFAppDelegate.swift */; };
 		1B97343E212B5238007548A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B97343D212B5238007548A2 /* Assets.xcassets */; };
 		1B973441212B5238007548A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B97343F212B5238007548A2 /* LaunchScreen.storyboard */; };
+		1B973449212B5286007548A2 /* AFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B973448212B5286007548A2 /* AFViewController.swift */; };
+		1B97344B212B6AC3007548A2 /* AFCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B97344A212B6AC3007548A2 /* AFCollectionViewCell.swift */; };
+		1B97344D212B6AF7007548A2 /* AFDecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B97344C212B6AF7007548A2 /* AFDecorationView.swift */; };
+		1B97344F212B6B4C007548A2 /* AFCollectionViewCircleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B97344E212B6B4C007548A2 /* AFCollectionViewCircleLayout.swift */; };
+		1B973451212B6B98007548A2 /* AFCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B973450212B6B98007548A2 /* AFCollectionViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B973433212B5235007548A2 /* SwiftCircleFlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCircleFlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B973436212B5236007548A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B973438212B5236007548A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1B97343B212B5236007548A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B973436212B5236007548A2 /* AFAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFAppDelegate.swift; sourceTree = "<group>"; };
 		1B97343D212B5238007548A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B973440212B5238007548A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B973442212B5238007548A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B973448212B5286007548A2 /* AFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFViewController.swift; sourceTree = "<group>"; };
+		1B97344A212B6AC3007548A2 /* AFCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFCollectionViewCell.swift; sourceTree = "<group>"; };
+		1B97344C212B6AF7007548A2 /* AFDecorationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFDecorationView.swift; sourceTree = "<group>"; };
+		1B97344E212B6B4C007548A2 /* AFCollectionViewCircleLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFCollectionViewCircleLayout.swift; sourceTree = "<group>"; };
+		1B973450212B6B98007548A2 /* AFCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 		1B973435212B5235007548A2 /* SwiftCircleFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
-				1B973436212B5236007548A2 /* AppDelegate.swift */,
-				1B973438212B5236007548A2 /* ViewController.swift */,
-				1B97343A212B5236007548A2 /* Main.storyboard */,
+				1B973436212B5236007548A2 /* AFAppDelegate.swift */,
+				1B973450212B6B98007548A2 /* AFCollectionViewFlowLayout.swift */,
+				1B973448212B5286007548A2 /* AFViewController.swift */,
+				1B97344A212B6AC3007548A2 /* AFCollectionViewCell.swift */,
+				1B97344C212B6AF7007548A2 /* AFDecorationView.swift */,
+				1B97344E212B6B4C007548A2 /* AFCollectionViewCircleLayout.swift */,
 				1B97343D212B5238007548A2 /* Assets.xcassets */,
 				1B97343F212B5238007548A2 /* LaunchScreen.storyboard */,
 				1B973442212B5238007548A2 /* Info.plist */,
@@ -124,7 +133,6 @@
 			files = (
 				1B973441212B5238007548A2 /* LaunchScreen.storyboard in Resources */,
 				1B97343E212B5238007548A2 /* Assets.xcassets in Resources */,
-				1B97343C212B5236007548A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +143,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B973439212B5236007548A2 /* ViewController.swift in Sources */,
-				1B973437212B5236007548A2 /* AppDelegate.swift in Sources */,
+				1B973451212B6B98007548A2 /* AFCollectionViewFlowLayout.swift in Sources */,
+				1B973449212B5286007548A2 /* AFViewController.swift in Sources */,
+				1B97344D212B6AF7007548A2 /* AFDecorationView.swift in Sources */,
+				1B97344B212B6AC3007548A2 /* AFCollectionViewCell.swift in Sources */,
+				1B97344F212B6B4C007548A2 /* AFCollectionViewCircleLayout.swift in Sources */,
+				1B973437212B5236007548A2 /* AFAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1B97343A212B5236007548A2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B97343B212B5236007548A2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1B97343F212B5238007548A2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 979MPXHXFC;
 				INFOPLIST_FILE = SwiftCircleFlowLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 979MPXHXFC;
 				INFOPLIST_FILE = SwiftCircleFlowLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

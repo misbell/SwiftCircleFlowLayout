@@ -9,14 +9,29 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AFAppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var viewController: UINavigationController?
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.viewController = UINavigationController(rootViewController: AFViewController())
+        self.viewController?.navigationBar.barStyle = UIBarStyle.black
+        self.window?.rootViewController = self.viewController
+        self.window?.makeKeyAndVisible()
         return true
+        
+//        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//        self.viewController = [[UINavigationController alloc] initWithRootViewController:[[AFViewController alloc] init]];
+//        self.viewController.navigationBar.barStyle = UIBarStyleBlack;
+//        self.window.rootViewController = self.viewController;
+//        [self.window makeKeyAndVisible];
+//        return YES;
+
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
